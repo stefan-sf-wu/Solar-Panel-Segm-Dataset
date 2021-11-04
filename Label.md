@@ -9,8 +9,8 @@ See how to import WMTS into QGIS:
 
 A list of WMTS for Taiwan: http://gis.rchss.sinica.edu.tw/qgis/?p=3640
 
-> Note that you should have ***consistent coordinate reference system throughout the project.*** 
-Click the *system description* in the bottom-right corner of QGIS to change predefined system.
+_Note that you should have ***consistent coordinate reference system throughout the project.*** 
+Click the *system description* in the bottom-right corner of QGIS to change predefined system._
 
 You may use any system as long as you or your IT guy know how to convert produced dataset to training format for your networks. However, a general reference system, such as "WGS 84 / EPSG:4326", can accelerate the development in many ways. 
 
@@ -26,7 +26,7 @@ _These steps will help you identify the area you are going to work on in QGIS._
 ## Create a Layer for Annotations
 1. Select **Layer > Creat Layer > New Shaperfile Layer**.
 2. Initialize layer information
-    * Name your layer
+    * **Name** your layer
     * Geometric type: **Polygon**
     * Select the reference system **you use for your background**.
     * In "Fields List," you can predefine metedata for your layer.
