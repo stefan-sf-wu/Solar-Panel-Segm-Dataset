@@ -1,4 +1,4 @@
-# How to Create a Land-type Mapping Dataset for Instance/Semantic Segmentation
+# Create a Land-type Mapping Dataset for Instance/Semantic Segmentation using QGIS
 
 ## Calling WMTS service  in QGIS
 For land-type mapping, **Orthophoto** or **Unmanned Aerial Vehicle images** are common materials for building such dataset. Make sure the WMTS you called has such data.
