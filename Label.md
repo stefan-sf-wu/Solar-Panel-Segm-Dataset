@@ -43,7 +43,7 @@ _These steps will help you identify the area you are going to work on in QGIS._
 ## Export feature
 1. Right click the edited layer, and go to **"Export > Save Feature As..."**
 2. For "Format", select "Geojson"
-3. Choose the directory you want to place the file.
+3. Choose the directory you want to store the file.
 4. Click "OK" and all set!
 
 The format of output file is also dependent on how you and your IT guy would like to communicate. It might not be Geojson.
