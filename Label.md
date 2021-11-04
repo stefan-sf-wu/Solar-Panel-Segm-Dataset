@@ -18,7 +18,7 @@ You may use any system as long as you or your IT guy know how to convert produce
 1. Enter **coordinates** of target area in `template.kml`, 
 2. **Import** `template.kml` into QGIS as a layer by 
     * direct dragging, *or*
-    * "LAYER > ADD LAYER > ADD VECTOR LAYER," and then select the file and open it.
+    * "Layer > Add Layer > Add Vector Layer," and then select the file and open it.
 3. Right click on the imported layer and select **"Zoom to Layer."** You shall have an overview of your target area.
 4. Double click the layer and **set the symbol to *outline's*** so that you can view the area within the boundary.
 _These steps will help you identify the area you are going to work on in QGIS._
