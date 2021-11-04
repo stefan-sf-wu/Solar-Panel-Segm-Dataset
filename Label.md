@@ -3,7 +3,7 @@
 ## Calling WMTS service  in QGIS
 For land-type mapping, **Orthophoto** or **Unmanned Aerial Vehicle images** are common materials for building such dataset. Make sure the WMTS you called has such data.
 
-See how to import WMT/WMTS into QGIS:
+See how to import WMTS into QGIS:
 * [How can I add the OGC APIs (WMS, WMTS, WCS) to my QGIS?](https://land.copernicus.eu/global/faq/how-can-i-add-ogc-apis-wms-wmts-wcs-my-qgis)
 * [Working with WMS Data](https://www.qgistutorials.com/en/docs/working_with_wms.html)
 
