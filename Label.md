@@ -44,7 +44,7 @@ Click the *system description* in the bottom-right corner of QGIS to change pred
     1. **Left click to draw** the outline of object
     2. **Right click to complete** the polygon
     3. Enter corresponding metadata on the pop-up
-4. Remember to click **"Save Layer Edits"** before leaving.
+4. Remember to click **"Save Layer Edits"** to write polygons to the layer.
 
 ## Export feature
 1. Right click the edited layer, and go to "Export > Save Feature As..."
