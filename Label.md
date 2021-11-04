@@ -9,9 +9,8 @@ See how to import WMT/WMTS into QGIS:
 
 A list of WMTS for Taiwan: http://gis.rchss.sinica.edu.tw/qgis/?p=3640
 
-
-> Note that you should have ***consistent coordinate reference system throughout the project.*** \
-> Click the *system description* in the bottom-right corner of QGIS to change predefined system.
+Note that you should have ***consistent coordinate reference system throughout the project.*** 
+Click the *system description* in the bottom-right corner of QGIS to change predefined system.
 
 You may use any system as long as you or your IT guy know how to convert produced dataset to training format for your networks. However, a general reference system, such as **"WGS 84 / EPSG:4326"**, can accelerate the development in many ways. 
 
@@ -22,7 +21,7 @@ You may use any system as long as you or your IT guy know how to convert produce
     * "LAYER > ADD LAYER > ADD VECTOR LAYER," and then select the file and open it.
 3. Right click on the imported layer and select **"Zoom to Layer."** You shall have an overview of your target area.
 4. Double click the layer and **set the symbol to *outline's*** so that you can view the area within the boundary.
-> These steps will help you identify the area you are going to work on in QGIS.
+_These steps will help you identify the area you are going to work on in QGIS._
 
 ## Create a Layer for Annotations
 1. Select **Layer > Creat Layer > New Shaperfile Layer**.
