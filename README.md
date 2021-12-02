@@ -7,3 +7,4 @@ Inherited from [*Full Collection: Distributed Solar Photovoltaic Array Location 
 
 ### COCO-format
 - Each 5000 * 5000 high-res images is tiled into 400 pieces of 250 * 250 images for training at a proper zoom level here. Zero-instance image tiles are removed from the dataset.Polygons of the panels are formatted into COCO-format annotation.
+- analysis ready
