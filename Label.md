@@ -1,6 +1,6 @@
 # Create a Land-type Mapping Dataset for Instance/Semantic Segmentation using QGIS
 
-## Calling WMTS service  in QGIS
+## Call Web Map Tile Service  in QGIS
 For land-type mapping, **Orthophoto** or **Unmanned Aerial Vehicle images** are common materials for building such dataset. Make sure the WMTS you called has such data.
 
 See how to import WMTS into QGIS:
@@ -14,7 +14,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
 
 > You may use any system as long as you or your IT guy know how to convert produced dataset to training format for your networks. However, a general reference system, such as "WGS 84 / EPSG:4326", can accelerate the development in many ways. 
 
-## Setting up Target Area Boundary 
+## Set up Target Area Boundary 
 1. Enter **coordinates** of target area in `template.kml`. Note that: 
     * Coordinates should be listed **in clockwise order**.
     * Coordinates should form **a close graph**.\
@@ -27,7 +27,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
 4. Double click the layer and **set the symbol to *outline's*** so that you can view the area within the boundary.
 > These steps are not necessary, but it will help you identify the area you are going to work on in QGIS.
 
-## Creating a Layer for Annotations
+## Create a Layer for Annotations
 1. Select Layer > Creat Layer > **New Shaperfile Layer**.
 2. Initialize layer information
     * Name your layer
@@ -36,7 +36,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
     * In "Fields List," you can predefine metedata for your layer.
     Normally, we will create a field *"id"*  in integer type to hold the unique id for each polygon
 
-## Annotating
+## Annotate
 1. Click the new shapefile layer in "Layers."
 2. Click "Toggle Editing" in toolbar, and then click "Add Polygon Feature" next to it.
 3. For each polygon, 
