@@ -10,8 +10,7 @@ See how to import WMTS into QGIS:
 
 Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey Center's WMTS for most on-going projects. A list of WMT channels of Taiwan can be found [here](http://gis.rchss.sinica.edu.tw/qgis/?p=3640).
 
-**Note that you should have consistent coordinate reference system throughout the project.**\
-Click the *system description* in the bottom-right corner of QGIS to change predefined system.
+**Note that you should have consistent coordinate reference system throughout the project.** Click the *system description* in the bottom-right corner of QGIS to change predefined system.
 
 > You may use any system as long as you or your IT guy know how to convert produced dataset to training format for your networks. However, a general reference system, such as "WGS 84 / EPSG:4326", can accelerate the development in many ways. 
 
