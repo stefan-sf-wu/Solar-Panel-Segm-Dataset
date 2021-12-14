@@ -14,7 +14,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
 
 > You may use any system as long as you or your IT guy know how to convert produced dataset to training format for your networks. However, a general reference system, such as "WGS 84 / EPSG:4326", can accelerate the development in many ways. 
 
-## Set up Target Area Boundary 
+## Setting up Target Area Boundary 
 1. Enter **coordinates** of target area in `template.kml`. Note that: 
     * Coordinates should be listed **in clockwise order**.
     * Coordinates should form **a close graph**.\
@@ -27,7 +27,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
 4. Double click the layer and **set the symbol to *outline's*** so that you can view the area within the boundary.
 > These steps are not necessary, but it will help you identify the area you are going to work on in QGIS.
 
-## Create a Layer for Annotations
+## Creating a Layer for Annotations
 1. Select Layer > Creat Layer > **New Shaperfile Layer**.
 2. Initialize layer information
     * Name your layer
