@@ -25,7 +25,7 @@ Currently, Center for GIS uses "正射影像圖(通用)" from Nation Land Survey
     * "Layer > Add Layer > Add Vector Layer," and then select the file and open it.
 3. Right click on the imported layer and select "Zoom to Layer." You shall have an overview of your target area.
 4. Double click the layer and **set the symbol to *outline's*** so that you can view the area within the boundary.
-> These steps will help you identify the area you are going to work on in QGIS.
+> These steps are not necessary, but it will help you identify the area you are going to work on in QGIS.
 
 ## Create a Layer for Annotations
 1. Select Layer > Creat Layer > **New Shaperfile Layer**.
