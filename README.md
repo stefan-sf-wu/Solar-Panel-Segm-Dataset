@@ -11,6 +11,6 @@ Inherited from [*Full Collection: Distributed Solar Photovoltaic Array Location 
   - Binary Single-channel bitmap:
     - 0: nan
     - 1: solar panel
-    - 
+
 ## Dataset Link
 - [Google Drive](https://drive.google.com/file/d/19xVO0yPyXLggJN8LEg31bd9ZKeNCQiBp/view?usp=share_link)
