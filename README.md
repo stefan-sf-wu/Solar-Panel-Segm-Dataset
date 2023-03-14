@@ -1,6 +1,6 @@
 # Solar Panel Detection Dataset
 ## Overview
-This is a dataset from *Full Collection: Distributed Solar Photovoltaic Array Location and Extent Data Set for Remote Sensing Object Identification* [1] that is modified for object detection purpose.
+Bradbury *et al.* [1] that is modified for object detection purpose.
 
 
 Abstract of the original paper:
