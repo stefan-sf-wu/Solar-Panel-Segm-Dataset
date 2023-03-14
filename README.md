@@ -8,6 +8,9 @@ Inherited from [*Full Collection: Distributed Solar Photovoltaic Array Location 
 ## Format
 - Each 5000 * 5000 high-res images is tiled into 400 pieces of 250 * 250 images for training at a proper zoom level. Zero-instance image tiles are removed from the dataset. Polygons of the panels are formatted into COCO-format annotation.
 - Annotation
-  - Single Channel Bitmap:
+  - Binary Single-channel bitmap:
     - 0: nan
-    - 1: solar panel 
+    - 1: solar panel
+    - 
+## Dataset Link
+- [Google Drive](https://drive.google.com/file/d/19xVO0yPyXLggJN8LEg31bd9ZKeNCQiBp/view?usp=share_link)
