@@ -6,7 +6,8 @@ Inherited from [*Full Collection: Distributed Solar Photovoltaic Array Location 
 > This dataset contains the geospatial coordinates and border vertices for over 19,000 solar panels across 601 high resolution images from four cities in California. Dataset applications include training object detection and other machine learning algorithms that use remote sensing imagery, developing specific algorithms for predictive detection of distributed PV systems, and analysis of the socioeconomic correlates of PV deployment.
 
 ## Format
-- Each 5000 * 5000 high-res images is tiled into 400 pieces of 250 * 250 images for training at a proper zoom level. Zero-instance image tiles are removed from the dataset. Polygons of the panels are formatted into COCO-format annotation.
+- Each 5000 * 5000 high-res images is tiled into 400 pieces of 250 * 250 images for training at a proper zoom level
+- Zero-instance image tiles are removed from the dataset
 - Annotation
   - Binary Single-channel bitmap:
     - 0: nan
