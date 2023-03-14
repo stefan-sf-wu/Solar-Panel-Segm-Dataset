@@ -1,6 +1,6 @@
 # Solar Panel Segmentation Dataset
 ## Overview
-Bradbury *et al.* [1] propose the original dataset. This is a version modified for object segmentation purpose.
+Bradbury *et al.* [1] propose the original dataset. This is a version modified for object segmentation tasks.
 
 The abstract from the paper:
 > Earth-observing remote sensing data, including aerial photography and satellite imagery, offer a snapshot of the world from which we can learn about the state of our environment, anthropogenic systems, and natural resources. The components of energy systems that are visible from above may be assessed with these remote sensing data when combined with machine learning methods. Here we focus on the information gap in distributed solar photovoltaic (PV) arrays, of which there is limited data on solar PV deployments at small geographic scales. We created a machine learning dataset to develop the process of automatically identifying solar PV locations through the use of remote sensing imagery.\
